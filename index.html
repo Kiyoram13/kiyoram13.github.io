@@ -199,11 +199,11 @@
     .card:hover { transform:translateY(-8px); box-shadow:0 24px 48px rgba(0,0,0,.07); }
     .card-icon { font-size:2rem; margin-bottom:16px; }
     .card-num {
-      position:absolute; top:24px; right:28px;
+      position:absolute; top:12px; right:20px;
       font-family:'Cormorant Garamond',serif; font-size:3.5rem;
       font-weight:300; color:rgba(107,191,170,.12); line-height:1;
     }
-    .card h3 { font-size:1rem; font-weight:500; margin-bottom:10px; }
+    .card h3 { font-size:1rem; font-weight:500; margin-bottom:10px; padding-right:48px; }
     .card p  { font-size:.9rem; line-height:1.7; color:#666; }
 
     /* ── CURIOSIDADES (slider) ── */
@@ -310,7 +310,7 @@
     <li><a href="#significado">Misión</a></li>
     <li><a href="#servicios">Servicios</a></li>
     <li><a href="#curiosidades">¿Sabías que…?</a></li>
-    <li><a href="#eslogan">Contacto</a></li>
+    <li><a href="#contacto">Contacto</a></li>
   </ul>
 </nav>
 
@@ -393,35 +393,30 @@
 
       <div class="card reveal">
         <span class="card-num">01</span>
-        <div class="card-icon">🩻</div>
         <h3>Pruebas Radiológicas</h3>
         <p>Realizamos radiografías, ecografías y tomografías de alta precisión para apoyar el diagnóstico clínico con la mayor fiabilidad.</p>
       </div>
 
       <div class="card reveal">
         <span class="card-num">02</span>
-        <div class="card-icon">🔬</div>
         <h3>Restauración de Imágenes</h3>
         <p>Mejoramos y recuperamos imágenes médicas dañadas o con ruido, garantizando que cada detalle sea claro para el profesional.</p>
       </div>
 
       <div class="card reveal">
         <span class="card-num">03</span>
-        <div class="card-icon">🤖</div>
         <h3>Inteligencia Artificial</h3>
         <p>Utilizamos IA de última generación para reconstruir imágenes incompletas y mejorar su calidad diagnóstica de forma automática.</p>
       </div>
 
       <div class="card reveal">
         <span class="card-num">04</span>
-        <div class="card-icon">⚙️</div>
         <h3>Corrección de Artefactos</h3>
         <p>Eliminamos fallos causados por movimientos, implantes metálicos o problemas técnicos para obtener imágenes limpias.</p>
       </div>
 
       <div class="card reveal">
         <span class="card-num">05</span>
-        <div class="card-icon">🗄️</div>
         <h3>Auditoría PACS</h3>
         <p>Revisamos y auditamos sistemas PACS para detectar archivos corruptos y garantizar el almacenamiento correcto de todas las imágenes.</p>
       </div>
@@ -478,18 +473,6 @@
           </div>
         </div>
 
-        <!-- SLIDE 3 -->
-        <div class="slide slide-3">
-          <div class="slide-visual">
-            <div class="slide-icon-big">⏱️</div>
-          </div>
-          <div class="slide-content">
-            <span class="tag">Carpe Diem</span>
-            <h2>"Carpe Diem" tiene más de 2.000 años de historia</h2>
-            <p>La oda de Horacio data del año 23 a.C. Paradójicamente, la misma filosofía que invita a vivir el momento es la que guía nuestra atención a los pacientes: el <em>presente</em> como prioridad.</p>
-            <div class="dato">📜 Odas I, 11 · Quinto Horacio Flaco</div>
-          </div>
-        </div>
 
       </div><!-- /slider-track -->
     </div><!-- /slider-wrapper -->
@@ -500,12 +483,133 @@
         <div class="dot active" data-idx="0"></div>
         <div class="dot" data-idx="1"></div>
         <div class="dot" data-idx="2"></div>
-        <div class="dot" data-idx="3"></div>
       </div>
       <button class="slider-btn" id="nextBtn">&#8594;</button>
     </div>
   </div>
 </section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="contacto-inner">
+    <p class="section-label reveal">Encuéntranos</p>
+    <h2 class="section-title reveal">Contacto</h2>
+
+    <div class="c-grid reveal">
+
+      <!-- Tarjetas -->
+      <div class="c-cards">
+
+        <a href="https://instagram.com/carpe_diem.oficial" target="_blank" class="c-card">
+          <span class="c-icon"> </span>
+          <div>
+            <div class="c-lbl">Instagram</div>
+            <div class="c-val">@carpe_diem.oficial</div>
+          </div>
+        </a>
+
+        <a href="mailto:info@carpediem.com" class="c-card">
+          <span class="c-icon"> </span>
+          <div>
+            <div class="c-lbl">Correo</div>
+            <div class="c-val">info@carpediem.com</div>
+          </div>
+        </a>
+
+        <a href="tel:+34432358634" class="c-card">
+          <span class="c-icon"> </span>
+          <div>
+            <div class="c-lbl">Teléfono</div>
+            <div class="c-val">+34 432 358 634</div>
+          </div>
+        </a>
+
+        <a href="https://maps.app.goo.gl/UTuYYaSypQiJiUsi6" target="_blank" class="c-card">
+          <span class="c-icon"> </span>
+          <div>
+            <div class="c-lbl">Dirección</div>
+            <div class="c-val">Ronda Sur, Murcia</div>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- Mapa -->
+      <div class="c-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7527.433356004914!2d-1.124255!3d37.9700334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6378a64f0d0d05%3A0xb84d3d067a1714a5!2sRonda%20Sur!5e1!3m2!1ses!2ses!4v1779640069634!5m2!1ses!2ses"
+          width="100%" height="100%"
+          style="border:0; display:block;"
+          allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  #contacto {
+    background: #fff;
+    padding: 100px 48px;
+    scroll-margin-top: 72px;
+  }
+  .contacto-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .c-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 48px;
+  }
+  .c-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .c-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 24px;
+    border-radius: 14px;
+    background: var(--fondo);
+    border: 1px solid rgba(107,191,170,.2);
+    text-decoration: none;
+    color: var(--gris);
+    transition: transform .25s, box-shadow .25s;
+  }
+  .c-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(0,0,0,.08);
+  }
+  .c-icon { font-size: 1.6rem; flex-shrink: 0; }
+  .c-lbl {
+    font-size: .68rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--verde);
+    margin-bottom: 3px;
+  }
+  .c-val { font-weight: 500; font-size: .92rem; }
+  .c-map {
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,.1);
+    min-height: 380px;
+  }
+  .c-map iframe { width:100%; height:100%; min-height:380px; }
+
+  @media(max-width:768px){
+    #contacto { padding: 72px 24px; }
+    .c-grid   { grid-template-columns: 1fr; }
+    .c-map    { min-height: 260px; }
+    .c-map iframe { min-height: 260px; }
+  }
+</style>
 
 <!-- ESLOGAN -->
 <section id="eslogan">
@@ -562,7 +666,7 @@
   // ── Slider ────────────────────────────────────────────────
   const track   = document.getElementById('sliderTrack');
   const dots    = document.querySelectorAll('.dot');
-  let current = 0, total = 4, autoTimer;
+  let current = 0, total = 3, autoTimer;
 
   function goTo(idx){
     current = (idx+total)%total;
